@@ -1,0 +1,66 @@
+.nav {
+  display: flex;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.nav li,
+.mobile li {
+  cursor: pointer;
+  z-index: 4;
+}
+
+.logo {
+  flex: 0.5;
+  align-self: center;
+}
+
+.logo img {
+  width: 8rem;
+}
+
+.web {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 25rem;
+}
+
+.mobile {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 659px) {
+  .nav {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    display: block;
+  }
+  .web {
+    display: none;
+  }
+  .logo {
+    flex: 1;
+    align-self: center;
+  }
+
+  .mobile {
+    list-style-type: none;
+  }
+
+  .mobile li {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+}

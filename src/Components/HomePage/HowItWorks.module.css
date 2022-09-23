@@ -1,0 +1,73 @@
+.how_it_works > h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.how_it_works > h2 > span {
+  color: #ff7f7f;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.description {
+  display: flex;
+  margin-bottom: 5rem;
+  justify-content: space-between;
+}
+
+.description img {
+  width: 34rem;
+  margin-right: 6rem;
+}
+
+.description p {
+  font-size: 2.8rem;
+  margin-left: 3rem;
+  word-spacing: 1rem;
+}
+
+@media (max-width: 1450px) {
+  .description p {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 1093px) {
+  .cards {
+    flex-direction: column;
+  }
+  .description {
+    flex-direction: column;
+  }
+  .description p {
+    margin-left: 0rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: -2rem;
+  }
+  .description img {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+@media (max-width: 659px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .description p {
+    font-size: 1.5rem;
+  }
+}

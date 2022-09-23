@@ -1,0 +1,168 @@
+.heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_left {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.contact_left > p {
+  font-size: 2rem;
+  word-spacing: 1rem;
+  margin-bottom: 3rem;
+}
+
+.circle {
+  width: 12rem;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  width: 6rem;
+}
+.contact_left > div {
+  margin-left: 6rem;
+}
+
+.contact_left > div > p {
+  font-size: 1rem;
+  margin-bottom: 5rem;
+}
+
+.contact_right > p {
+  font-size: 2rem;
+}
+
+.form {
+  border: 3px solid #ff7f7f;
+  border-image: linear-gradient(#ff7f7f, #6251d7) 30;
+  width: 75%;
+}
+
+.form div {
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-right: 4%;
+}
+
+.form input {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 4%;
+  font-size: 1rem;
+  outline: none;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ff7f7f;
+  width: 90%;
+  color: white;
+  padding-bottom: 0.5rem;
+}
+
+.form input::placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.contact_right ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 25rem;
+  margin-top: 9rem;
+  margin-bottom: 2rem;
+}
+
+.contact_right ul li {
+  cursor: pointer;
+}
+
+.form button {
+  display: block;
+  margin: auto;
+  width: 8rem;
+  height: 2.8rem;
+  border-radius: 10px;
+  color: white;
+  background: none;
+  font-weight: bold;
+  border: 2px solid #ff7f7f;
+  cursor: pointer;
+  margin-top: 6%;
+  margin-bottom: 10%;
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.rotating {
+  animation: rotating 4s linear infinite;
+}
+
+@media (max-width: 1130px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact-right {
+    margin-left: 1rem;
+  }
+
+  .heading {
+    margin-bottom: 1rem;
+  }
+
+  .contact_left {
+    margin-top: 2rem;
+  }
+
+  .contact_right {
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 711px) {
+  .contact_left > p {
+    font-size: 1.4rem;
+  }
+
+  .contact_left > div > p {
+    font-size: 0.8rem;
+  }
+
+  .contact_right > p {
+    font-size: 1rem;
+  }
+
+  .contact_left > div {
+    margin-left: 2rem;
+  }
+
+  .contact_right ul {
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: -3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .form button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+  }
+}

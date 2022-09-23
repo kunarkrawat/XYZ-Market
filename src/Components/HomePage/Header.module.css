@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.header > div {
+  margin-top: 5rem;
+}
+
+.header > div > h1 {
+  font-size: 3.8rem;
+  margin-bottom: 1rem;
+}
+
+.header > div > p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.header > div > h1 > span {
+  color: #ff7f7f;
+}
+
+.header img {
+  width: 46rem;
+  margin-top: -5rem;
+}
+
+.header > div > a {
+  text-decoration: none;
+  color: white;
+}
+
+.header > div > a > button {
+  width: 9rem;
+  height: 3.4rem;
+  border-radius: 10px;
+  color: white;
+  background-color: #ff7f7f;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1387px) {
+  .header img {
+    width: 50%;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 1187px) {
+  .header > div > h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .header img {
+    display: none;
+  }
+  .header > div > h1 {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 659px) {
+  .header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .header div {
+    margin-top: 2rem;
+  }
+
+  .header > div > button {
+    width: 7rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 643px) {
+  .header > div > h1 > span {
+    display: block;
+  }
+}

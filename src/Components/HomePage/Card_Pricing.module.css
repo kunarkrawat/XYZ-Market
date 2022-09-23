@@ -1,0 +1,88 @@
+.card {
+  background-color: #191919;
+  box-shadow: 0px 0px 20px #ff7f7f;
+  width: 21rem;
+  height: 52rem;
+  border-radius: 0.9rem;
+  margin-bottom: 5rem;
+}
+
+.card h1 {
+  text-align: center;
+  margin-bottom: -0.6rem;
+  padding-top: 2rem;
+}
+
+.card img {
+  display: block;
+  margin: auto;
+}
+
+.price {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 0;
+}
+
+.price > span {
+  font-size: 1rem;
+}
+
+.card a button {
+  display: block;
+  margin: auto;
+  width: 15rem;
+  height: 3.3rem;
+  color: white;
+  outline: none;
+  border: 1px solid #ff7f7f;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-radius: 0.8rem;
+}
+
+.card p {
+  text-align: left;
+  font-size: 0.9rem;
+  display: flex;
+  margin-left: 3.2rem;
+}
+
+@media (max-width: 1130px) {
+  .card {
+    width: 30rem;
+  }
+
+  .card {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .card p {
+    margin-left: 7.6rem;
+  }
+}
+
+@media (max-width: 659px) {
+  .nav {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 659px) {
+  .card {
+    width: 90%;
+  }
+
+  .card a button {
+    width: 90%;
+  }
+
+  .card p {
+    margin-left: 15%;
+  }
+}
