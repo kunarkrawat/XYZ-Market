@@ -5,30 +5,34 @@ const Header = () => {
   return (
     <div class={classes.header} id='home'>
       <div>
+         <p style = "color: #0ce8d3">
+          <b>#1 & only platform in the world that changes website in blended languages.</b>
+        </p>
+        
         <h1>
           Let Your Business <br /> appear As local on <br /> the{" "}
           <span>
             <Typical
               loop={Infinity}
               wrapper='b'
-              steps={[
-                "French",
+              steps={[  
+                "Russian",
                 2000,
-                "Russia",
+                "Indian",
                 2000,
-                "UAE",
+                "European",
                 2000,
-                "India",
+                "Canadian",
                 2000,
-                "US",
+                "MENA",
                 2000,
-                "Canada",
+                "EMEA",
                 2000,
-                "Spain",
+                "APAC",
                 2000,
                 "Global",
                 2000,
-                "Europe",
+                "LAD & NA",
                 2000,
               ]}
             />
@@ -44,7 +48,7 @@ const Header = () => {
           <span> - Free Trial</span>
         </a>
       </div>
-      <img src='/images/header_right.jpeg' alt='' />
+      <img src='/images/header_right.png' alt='' />
     </div>
   );
 };
