@@ -5,8 +5,9 @@ const Header = () => {
   return (
     <div class={classes.header} id='home'>
       <div>
-         
-        
+        <p>
+          <b>#1 & only platform in the world that changes website in blended languages.</b>
+        </p>
         <h1>
           Let Your Business <br /> appear As local on <br /> the{" "}
           <span>
