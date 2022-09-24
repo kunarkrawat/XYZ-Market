@@ -5,9 +5,7 @@ const Header = () => {
   return (
     <div class={classes.header} id='home'>
       <div>
-         <p style = "color: #0ce8d3">
-          <b>#1 & only platform in the world that changes website in blended languages.</b>
-        </p>
+         
         
         <h1>
           Let Your Business <br /> appear As local on <br /> the{" "}
