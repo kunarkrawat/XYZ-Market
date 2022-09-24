@@ -5,6 +5,9 @@ const Header = () => {
   return (
     <div class={classes.header} id='home'>
       <div>
+        {/* <p class = "hashtag">
+          <b>#1 & only platform that translates website into mixed languages.</b>
+        </p> */}
         <h1>
           Let Your Business <br /> appear As local on <br /> the{" "}
           <span>
@@ -12,23 +15,23 @@ const Header = () => {
               loop={Infinity}
               wrapper='b'
               steps={[
-                "French",
+                "Russian",
                 2000,
-                "Russia",
+                "Indian",
                 2000,
-                "UAE",
+                "European",
                 2000,
-                "India",
+                "Canadian",
                 2000,
-                "US",
+                "MENA",
                 2000,
-                "Canada",
+                "EMEA",
                 2000,
-                "Spain",
+                "APAC",
                 2000,
                 "Global",
                 2000,
-                "Europe",
+                "LAD & NA",
                 2000,
               ]}
             />
@@ -36,15 +39,14 @@ const Header = () => {
           Market.
         </h1>
         <p>
-          Everything you need to translate, display and manage your <br />{" "}
-          mulitlingual website, with full editing control.
+        Overcome the limitation of language barrier and take your website to the global markets and represent it as a local business to your customers, be local and global at the same time!
         </p>
         <a href='#pricing'>
           <button>See Plans</button>
           <span> - Free Trial</span>
         </a>
       </div>
-      <img src='/images/header_right.jpeg' alt='' />
+      <img src='/images/header_right.png' alt='' />
     </div>
   );
 };

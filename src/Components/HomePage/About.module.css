@@ -1,6 +1,6 @@
 .about_image {
   width: 52rem;
-  margin-top: 8rem;
+  margin-top: 1rem;
   margin-left: -8rem;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .vector {
-  width: 6rem;
+  width: 3rem;
   position: relative;
   left: 2rem;
   top: 2rem;
@@ -98,7 +98,7 @@
 
 @media (max-width: 600px) {
   .vector {
-    width: 4rem;
+    width: 3rem;
     top: 0.5rem;
   }
 }

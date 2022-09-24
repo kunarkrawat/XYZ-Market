@@ -50,13 +50,13 @@ const Contact = () => {
           />
           <div>
             <img src='/images/logo.png' className={classes.logo} alt='' />
-            <p>
-              Formulizing and translating the website in a way
-              <br /> similar to that your customers are searching for
-              <br /> you using multi-languages example Hindi, Russian,
-              <br /> etc and also the blend of multi-languages like
-              <br /> Hinglish, Runglish, etc
-            </p>
+            <p className={classes.gray}>
+            Helping businesses to expand their reach to the
+              <br /> untapped global markets in the customers own native
+              <br /> language, making the businesses local and global
+              <br /> at the same time. Make that market your own market today.
+              
+            </p>   
           </div>
         </div>
         <div className={classes.contact_right}>
@@ -116,6 +116,20 @@ const Contact = () => {
               <a href='#contact'>Contact</a>
             </li>
           </ul>
+          <ul style={{ marginTop: "0" }}>
+            <li>
+              <a href='#terms'>Cookie</a>
+            </li>
+            <li>
+              {" "}
+             
+              <a href='#privacy'>Terms & Condition</a>
+            </li>
+            <li>
+              <a href='#privacy'>Privacy Policy</a>
+            </li>
+          </ul>
+          
         </div>
       </div>
     </>

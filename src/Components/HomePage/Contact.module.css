@@ -1,23 +1,24 @@
 .heading {
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
 }
 
 .contact {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .contact_left {
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 15%;
 }
 
 .contact_left > p {
-  font-size: 2rem;
-  word-spacing: 1rem;
+  font-size: 1.8rem;
+  word-spacing: 0.7rem;
   margin-bottom: 3rem;
+  margin-top: 8rem;
 }
 
 .circle {
@@ -29,7 +30,7 @@
   width: 6rem;
 }
 .contact_left > div {
-  margin-left: 6rem;
+  margin-left: 3rem;
 }
 
 .contact_left > div > p {
@@ -38,13 +39,13 @@
 }
 
 .contact_right > p {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .form {
   border: 3px solid #ff7f7f;
   border-image: linear-gradient(#ff7f7f, #6251d7) 30;
-  width: 75%;
+  width: 95%;
 }
 
 .form div {
@@ -137,11 +138,13 @@
 
 @media (max-width: 711px) {
   .contact_left > p {
+    margin-top: 0;
     font-size: 1.4rem;
   }
 
   .contact_left > div > p {
     font-size: 0.8rem;
+    word-spacing: 0.1rem;
   }
 
   .contact_right > p {
@@ -165,4 +168,8 @@
     height: 2rem;
     border-radius: 0.4rem;
   }
+}
+
+.gray{
+  color: gray;
 }

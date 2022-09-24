@@ -15,7 +15,7 @@ const Card_Pricing = ({
       <h1>{title}</h1>
       <img src={image} alt='' />
       <h2 className={classes.price}>
-        ₹{price} <span>/month</span>
+      ${price} <span>/month</span>
       </h2>
       <a href={link}>
         <button

@@ -33,7 +33,7 @@
 .description p {
   font-size: 2.8rem;
   margin-left: 3rem;
-  word-spacing: 1rem;
+  word-spacing: 0.8rem;
 }
 
 @media (max-width: 1450px) {
@@ -70,4 +70,25 @@
   .description p {
     font-size: 1.5rem;
   }
+}
+
+
+
+.flex {
+  display: flex;
+}
+.about_left {
+  flex: 0.7;
+}
+
+.about {
+  display: flex;
+  /* padding-right: 5rem; */
+  padding-left: 3rem;
+}
+@media (max-width: 1300px) {
+  .about {
+    flex-direction: column-reverse;
+    padding-left: 0rem;
+  }  
 }
