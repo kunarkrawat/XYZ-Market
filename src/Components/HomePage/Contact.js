@@ -118,12 +118,12 @@ const Contact = () => {
           </ul>
           <ul style={{ marginTop: "0" }}>
             <li>
-              <a href='#terms'>Cookie</a>
+              <a href='#cookie'>Cookie</a>
             </li>
             <li>
               {" "}
              
-              <a href='#privacy'>Terms & Condition</a>
+              <a href='#tnc'>Terms & Condition</a>
             </li>
             <li>
               <a href='#privacy'>Privacy Policy</a>
